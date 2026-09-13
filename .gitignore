@@ -1,0 +1,75 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Testing, coverage, and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Machine-learning data and generated artifacts
+data/
+datasets/
+models/
+checkpoints/
+logs/
+outputs/
+runs/
+wandb/
+mlruns/
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+
+# Local secrets and configuration
+*.local
+config.local.*
+secrets.*
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-local temporary files
+*.tmp
+*.temp
+*.log
+tmp/
+temp/
